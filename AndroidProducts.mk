@@ -14,6 +14,6 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/xiaomi/land
+LOCAL_PATH := device/10or/holland1
 
-PRODUCT_MAKEFILES := $(LOCAL_PATH)/omni_land.mk
+PRODUCT_MAKEFILES := $(LOCAL_PATH)/omni_holland1.mk

@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/xiaomi/land
+LOCAL_PATH := device/10or/holland1
 
 # Architecture
 TARGET_ARCH := arm64
@@ -89,13 +89,13 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_EXTRA_LANGUAGES := true
 TW_THEME := portrait_hdpi
 TW_MAX_BRIGHTNESS := 255
-TW_DEFAULT_BRIGHTNESS := 80
+TW_DEFAULT_BRIGHTNESS := 30
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TW_SCREEN_BLANK_ON_BOOT := true
 TARGET_USES_64_BIT_BINDER := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
-TARGET_RECOVERY_FSTAB := device/xiaomi/land/recovery.fstab
+TARGET_RECOVERY_FSTAB := device/10or/holland1/recovery.fstab
 RECOVERY_SDCARD_ON_DATA := true
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 TW_FORCE_USE_BUSYBOX := true
@@ -110,9 +110,9 @@ TW_INCLUDE_NTFS_3G := true
 TW_INCLUDE_FUSE_EXFAT := true
 
 #shrp flags
-SHRP_PATH := device/xiaomi/land
-SHRP_MAINTAINER := sreeharimkl
-SHRP_DEVICE_CODE := land
+SHRP_PATH := device/10or/holland1
+SHRP_MAINTAINER := Jay
+SHRP_DEVICE_CODE := holland1
 SHRP_EDL_MODE := 1
 SHRP_EXTERNAL := /external_sd
 SHRP_INTERNAL := /sdcard
