@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-ifneq ($(filter land, $(TARGET_DEVICE)),)
+ifneq ($(filter holland1, $(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 
