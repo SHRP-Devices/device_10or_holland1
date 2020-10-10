@@ -38,7 +38,7 @@ TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_FBE := true
 TW_INCLUDE_CRYPTO_FBE := true
 TARGET_KEYMASTER_WAIT_FOR_QSEE := true
-TW_CRYPTO_SYSTEM_VOLD_MOUNT := system vendor cust
+TW_CRYPTO_SYSTEM_VOLD_MOUNT := system vendor
 
 # Encryption
 TARGET_CRYPTFS_HW_PATH := vendor/qcom/opensource/commonsys/cryptfs_hw
