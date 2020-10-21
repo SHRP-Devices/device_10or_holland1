@@ -125,4 +125,4 @@ SHRP_OFFICIAL := true
 SHRP_DARK := true
 SHRP_EXPRESS := true
 SHRP_NO_SAR_AUTOMOUNT := true
-
+SHRP_OFFICIAL := true
